@@ -73,5 +73,5 @@ Head TA and local organizer for TinyML Engineering for IoT Workshop (Jan 2025). 
 - Reviewer for IEEE journals and conferences; volunteer and community engagement.
 
 
-<body>
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=qVMIp_SYBr3f5Oro0xKneNsu9JTpzcgYU2IJfsODk28"></script></body>
+
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=qVMIp_SYBr3f5Oro0xKneNsu9JTpzcgYU2IJfsODk28&cl=ffffff&w=a"></script>
