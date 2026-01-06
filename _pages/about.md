@@ -11,6 +11,29 @@ PhD candidate in Electrical and Computer Engineering at King Abdullah University
 
 Thuwal, Saudi Arabia | +966 544509259 | [salah.abdeljabar@kaust.edu.sa](mailto:salah.abdeljabar@kaust.edu.sa) | [linkedin.com/in/salahabdeljabar](https://www.linkedin.com/in/salahabdeljabar)
 
+
+
+# News
+======
+* [10/2025] Invited as MobiSys'26 Technical Program Committee.
+* [10/2025] Received Paul Baran Young Scholar Award from Marconi Society!
+* [08/2025] One paper accepted to **MobiCom'25**. Congratulations to Khang, an undergraduate I was fortunate to mentor!<br>
+* [06/2025] Serve as a Distinguished Reviewer at ACM TIOT.
+* [06/2025] Completed Ph.D. defense!<br>
+* [05/2025] Awarded MobiSys 2025 Rising Star!<br>
+* [03/2025] One paper accepted to **SenSys'25**.
+* [12/2024] One paper accepted to **INFOCOM'25**.<br>
+* [11/2024] Serve as USENIX Security'25 Artifact Evaluation Committee <br>
+* [11/2024] Awarded ACM MobiCom'24 **Distinguished Artifact Reviewer!** <br>
+* [10/2024] One paper accepted to **SenSys'24**. Awarded ACM MobiCom'24 Travel Grant.<br>
+* [09/2024] Finished two deep learning wireless projects for Wi-Fi8 during my internship in **Qualcomm**.<br>
+* [08/2024] Two papers accepted to **MobiCom'24**.<br>
+* [08/2024] Serve as Technical Program Committee of ICPADS'24. <br>
+<br>
+
+
+
+
 ## Summary
 I have expertise in Computer Networking, LoRa communications, and hybrid RF/FSO systems. My background spans system design, signal processing, and software development, with experience in SDRs, Python, MATLAB, and machine learning frameworks. I enjoy solving complex technical challenges and building robust systems in telecommunications and networking.
 
@@ -48,3 +71,7 @@ Head TA and local organizer for TinyML Engineering for IoT Workshop (Jan 2025). 
 - KAUST Fellowship (2021–Present)
 - IEEE SusTech 2023 Student Poster Contest Winner
 - Reviewer for IEEE journals and conferences; volunteer and community engagement.
+
+
+<body>
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=qVMIp_SYBr3f5Oro0xKneNsu9JTpzcgYU2IJfsODk28"></script></body>
