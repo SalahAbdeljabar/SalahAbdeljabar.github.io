@@ -1,20 +1,20 @@
 ---
 permalink: /
-title: "Salah Abdeljabar"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-PhD candidate in Electrical and Computer Engineering at King Abdullah University of Science and Technology (KAUST). I work at the intersection of wireless communications, IoT, and network optimization, with hands-on deployments and collaborations bridging academic research and real-world impact.
+I'm a [Salah Abdeljabar](https://cemse.kaust.edu.sa/profiles/salah-abdeljabar), a PhD candidate in Wireless Communications and Networking at King Abdullah University of Science and Technology ([KAUST](https://www.kaust.edu.sa/en/)). I work at the intersection of wireless communications, IoT, and network optimization, with hands-on deployments and collaborations bridging academic research and real-world impact.
 
 Thuwal, Saudi Arabia | +966 544509259 | [salah.abdeljabar@kaust.edu.sa](mailto:salah.abdeljabar@kaust.edu.sa) | [linkedin.com/in/salahabdeljabar](https://www.linkedin.com/in/salahabdeljabar)
 
 
 
 ## Summary
-I have expertise in Computer Networking, LoRa communications, and hybrid RF/FSO systems. My background spans system design, signal processing, and software development, with experience in SDRs, Python, MATLAB, and machine learning frameworks. I enjoy solving complex technical challenges and building robust systems in telecommunications and networking.
+I have expertise in Computer Networking, LoRa communications and IoT, Delay-tolerant networking (DTN), and hybrid RF/FSO systems. My background spans system design, signal processing, and software development, with experience in SDRs, Python, MATLAB, and machine learning frameworks. I enjoy solving complex technical challenges and building robust systems in telecommunications and networking.
 
 ## Research Interests
 - Wireless communications and IoT systems
