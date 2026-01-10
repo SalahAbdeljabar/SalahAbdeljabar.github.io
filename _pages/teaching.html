@@ -1,12 +1,29 @@
 ---
 layout: archive
-title: "Teaching"
+title: "Teaching & Mentoring"
 permalink: /teaching/
 author_profile: true
 ---
 
 {% include base_path %}
 
+<h2>Graduate-Level Courses</h2>
 {% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+  {% if post.type == "Graduate Course" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h2>Workshop Organization and Leadership</h2>
+{% for post in site.teaching reversed %}
+  {% if post.type == "Workshop" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+<h2>Student Mentoring and Supervision</h2>
+{% for post in site.teaching reversed %}
+  {% if post.type == "Mentoring" %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
