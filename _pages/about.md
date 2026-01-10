@@ -9,7 +9,7 @@ redirect_from:
 
 I'm [Salah Abdeljabar](https://cemse.kaust.edu.sa/profiles/salah-abdeljabar), a PhD candidate in Wireless Communications and Networking at King Abdullah University of Science and Technology ([KAUST](https://www.kaust.edu.sa/en/)). I work at the intersection of wireless communications, IoT, and network optimization, with hands-on deployments and collaborations bridging academic research and real-world impact.
 
-Thuwal, Saudi Arabia | +966 544509259 | [salah.abdeljabar@kaust.edu.sa](mailto:salah.abdeljabar@kaust.edu.sa) | [linkedin.com/in/salahabdeljabar](https://www.linkedin.com/in/salahabdeljabar)
+Thuwal, Saudi Arabia | +966 544509259 | [Email](mailto:salah.abdeljabar@kaust.edu.sa) | [Linkedin](https://www.linkedin.com/in/salahabdeljabar)
 
 
 
@@ -58,3 +58,18 @@ Head TA and local organizer for TinyML Engineering for IoT Workshop (Jan 2025). 
     <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=qVMIp_SYBr3f5Oro0xKneNsu9JTpzcgYU2IJfsODk28"></script>
   </div>
 </div>
+
+<!-- Default Statcounter code for Personal Profile
+https://salahabdeljabar.github.io/ -->
+<script type="text/javascript">
+var sc_project=13196705; 
+var sc_invisible=1; 
+var sc_security="c19cef1e"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js" async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/13196705/0/c19cef1e/1/" alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
