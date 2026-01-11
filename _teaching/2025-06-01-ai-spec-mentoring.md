@@ -1,5 +1,5 @@
 ---
-title: "Mentorship - AI Specialization Projects"
+title: "AI Specialization Projects - KAUST Academy"
 collection: teaching
 type: "Mentoring"
 permalink: /teaching/2025-ai-spec-mentoring
@@ -10,4 +10,6 @@ semester: "Summer 2025"
 role: "Direct Mentor"
 ---
 
-Direct mentor for two student groups in the [Artificial Intelligence Specialization](https://academy.kaust.edu.sa/program/university-students/ai-specialization/) program at KAUST Academy. Mentored projects including AI Ingredients & Nutrition Analyzer and Complete AI Simulation & Evaluation for IELTS exam. Provided guidance on project development, technical implementation, and best practices in AI/ML.
+Direct mentor for two student groups in the [Artificial Intelligence Specialization](https://academy.kaust.edu.sa/program/university-students/ai-specialization/) program at KAUST Academy. 
+
+Mentored projects including AI Ingredients & Nutrition Analyzer [PDF](/files/teaching/AI_Ingredients_Nutrition_Analyzer_Final.pdf), and Complete AI Simulation & Evaluation for IELTS exam [PDF](/files/teaching/genIELTS-poster-final.pdf). Provided guidance on project development, technical implementation, and best practices in AI/ML.

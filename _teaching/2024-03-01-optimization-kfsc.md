@@ -10,6 +10,6 @@ semesters: "Spring 2024, Spring 2025"
 collaboration: "In collaboration with KAUST Academy"
 ---
 
-Teaching Assistant with Prof. [George Turkiyyah](https://cemse.kaust.edu.sa/profiles/george-turkiyyah).
+Teaching Assistant with Prof. [George Turkiyyah](https://cemse.kaust.edu.sa/profiles/george-turkiyyah) (Spring 2024 and Spring 2025).
 
 Graduate-level course on numerical optimization taught at King Fahad Security College in collaboration with KAUST Academy. Responsibilities included managing classes of 40+ students, developing course projects, grading assignments, proctoring exams, and conducting weekly office hours.

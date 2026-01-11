@@ -1,5 +1,5 @@
 ---
-title: "Mentorship - Saudi Summer Internship (SSI) - LoRa Mesh Networks"
+title: "LoRa Mesh Networks - Saudi Summer Internship (SSI)"
 collection: teaching
 type: "Mentoring"
 permalink: /teaching/2025-ssi-mentoring
@@ -10,4 +10,6 @@ semester: "Summer 2025"
 role: "Direct Mentor"
 ---
 
-Direct mentor for two undergraduate students in the [Saudi Summer Internship (SSI)](https://cemse.kaust.edu.sa/internship-opportunities/saudi-summer-internship-ssi) program at KAUST. Supervised evaluation of open-source LoRa-mesh networking techniques using the [Meshtastic](https://meshtastic.org/) framework, focusing on practical implementation and performance analysis of mesh networking protocols.
+Direct mentor for two undergraduate students in the [Saudi Summer Internship (SSI)](https://cemse.kaust.edu.sa/internship-opportunities/saudi-summer-internship-ssi) program at KAUST. 
+
+Supervised evaluation of open-source LoRa-mesh networking techniques using [Meshtastic](https://meshtastic.org/) framework, focusing on practical implementation and performance analysis of mesh networking [[PDF](/files/teaching/LoRa_Mesh_SSI_2025.pdf)].
