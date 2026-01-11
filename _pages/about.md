@@ -14,13 +14,13 @@ Thuwal, Saudi Arabia | +966 544509259 | [Email](mailto:salah.abdeljabar@kaust.ed
 
 
 ## Summary
-I have expertise in Computer Networking, LoRa communications and IoT, Delay-tolerant networking (DTN), and hybrid RF/FSO systems. My background spans system design, signal processing, and software development, with experience in SDRs, Python, MATLAB, and machine learning frameworks. I enjoy solving complex technical challenges and building robust systems in telecommunications and networking.
+PhD candidate in Electrical and Computer Engineering at KAUST specializing in wireless communications, Internet of Things systems, and network optimization. Research experience spans LoRa and low power wide area networks, delay-tolerant networking (DTN), hybrid RF and free space optical (FSO) systems, and reconfigurable intelligent surfaces for visible light communications (VLC). Strong background in system modeling, stochastic analysis, and experimental prototyping, with publications in leading IEEE journals and collaborations with international research institutions and industry partners.
 
 ## Research Interests
 - Wireless communications and IoT systems
-- Delay-tolerant networking (DTN) and rural connectivity
+- Delay-tolerant networking (DTN) and global connectivity
 - Hybrid RF/FSO links for challenging environments
-- Reconfigurable intelligent surfaces (RIS) for VLC
+- Reconfigurable intelligent surfaces (RIS) for visible light communications
 - Network optimization and signal processing
 
 ## Education
@@ -29,27 +29,33 @@ I have expertise in Computer Networking, LoRa communications and IoT, Delay-tole
 - Erasmus Exchange, Lund University (Aug 2017 – Jan 2018)
 - BSc, Electrical Engineering, The University of Jordan — GPA 3.95/4.0 (ranked 1st)
 
-## Highlights
-- Designed and implemented superposition techniques to increase LoRa throughput.
-- Conducted LoRa transmission experiments over TV White Spaces with Microsoft Research.
-- Built a DTN-enabled digital learning platform for rural areas.
-- Assisted in deploying hybrid FSO/MW links to connect remote areas and islands.
-- Developed positioning and protection systems to assist firefighters in complex environments.
-- Investigated and optimized RIS-assisted VLC systems for higher data rates and fairness.
+## Research Highlights
+- Designed and implemented a practical and energy-efficient off-grid wireless network based on LoRa Mesh.
+- Designed and implemented Super-LoRa, a practical technique to increase LoRa throughput via payload superposition.
+- Conducted LoRa transmission experiments over TV White Spaces in collaboration with Microsoft Research.
+- Developed a Delay-Tolerant Networking digital learning platform deployed for rural connectivity use cases.
+- Contributed to the design and deployment of hybrid Free-Space Optical (FSO) / Microwave (MW) links to connect remote areas and islands.
+- Investigated and optimized RIS-assisted VLC systems to improve data rates and fairness in mobile scenarios (indoor and outdoor setups).
 
 ## Publications
 See the [Publications](/publications) page for full details.
 
 ## Teaching & Mentoring
-Head TA and local organizer for TinyML Engineering for IoT Workshop (Jan 2025). TA for graduate-level courses including Numerical Optimization, Mathematical Foundations of Machine Learning, Embedded ML (TinyML), Applied Mathematics, and Linear Algebra. Mentored students across levels, including IB and undergraduate interns. See the [Teaching](/teaching/) page.
+Served as Teaching Assistant for graduate-level courses including Stochastic Processes, Numerical Optimization, Applied Mathematics, Mathematical Foundations of Machine Learning, and Linear Algebra. Lead TA and local organizer for TinyML Engineering for IoT Workshop (Jan 2025 & Jan 2024). Lead Instructor for High School AI Program (Summer 2025). Mentored 10+ students on research projects ranging from DTN-based educational platforms to LoRa mesh networking protocols. See the [Teaching](/teaching/) page for comprehensive details.
 
-## Awards & Service
-- KAUST CEMSE Dean's List Award (2025)
-- ICTP–Arab Fund PhD Fellowship (2024–2026)
-- IEEE ICC 4MT Thesis Competition Finalist (2025)
-- KAUST Fellowship (2021–Present)
-- IEEE SusTech 2023 Student Poster Contest Winner
-- Reviewer for IEEE journals and conferences; volunteer and community engagement.
+## Awards & Recognition
+- [6G Summit "Imagining Tomorrow" Video Competition Winner](https://ctl.kaust.edu.sa/articles/2025/11/12/imagining-tomorrow-highlights-6g-summit-young-scholar-competition) (Nov 2025)
+- [Falling Walls Lab KAUST Finalist](https://www.youtube.com/watch?v=COZIOS_cN9U) (Sep 2025)
+- KAUST CEMSE Dean's List Award for Exceptional Academic Achievements (2025)
+- [IEEE ICC 4-Minute Thesis (4MT) Competition Winner](https://ctl.kaust.edu.sa/articles/2025/06/22/kaust-ctl-researchers-shine-ieee-icc-4mt-competition) (Jun 2025)
+- [ICTP–Arab Fund PhD Fellowship](https://ctl.kaust.edu.sa/articles/2024/07/14/kaust-ctl-student-awarded-prestigious-ictp-arab-fund-phd-fellowship) (Sep 2024 – Dec 2026)
+- [IEEE SusTech 2023 Student Poster Contest Winner](https://ieee-sustech.org/2023/sustech-2023-student-poster-contest-winners/) (Apr 2023)
+- KAUST Fellowship (Aug 2021 – Present)
+
+## Service & Outreach
+- Journal Reviewer: IEEE Transactions on Vehicular Technology, IEEE Transactions on Wireless Communications
+- Conference Reviewer: IEEE PIMRC, IEEE WCNC
+- Community Engagement: KAUST Winter Enrichment Program Volunteer, Co-founder IEEE Power and Energy Society
 
 
 

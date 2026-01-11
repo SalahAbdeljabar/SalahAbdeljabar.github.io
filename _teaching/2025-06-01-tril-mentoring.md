@@ -1,5 +1,5 @@
 ---
-title: "LoRa Mesh Networks Research - TRIL Fellow, ICTP"
+title: "LoRa Mesh Experimental Testbed - TRIL Fellow, ICTP"
 collection: teaching
 type: "Mentoring"
 permalink: /teaching/2025-tril-mentoring
