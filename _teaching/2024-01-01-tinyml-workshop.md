@@ -3,7 +3,7 @@ title: "Embedded Machine Learning (TinyML) Workshop"
 collection: teaching
 type: "Workshop"
 permalink: /teaching/2024-tinyml-workshop
-venue: "KAUST & ICTP, Italy"
+venue: "KAUST Academy & ICTP"
 date: 2024-01-01
 location: "Thuwal, Saudi Arabia"
 semester: "January 2024"

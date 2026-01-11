@@ -3,7 +3,7 @@ title: "Workshop on TinyML Engineering for IoT"
 collection: teaching
 type: "Workshop"
 permalink: /teaching/2025-tinyml-workshop-kaust
-venue: "KAUST & ICTP, Italy"
+venue: "KAUST Academy & ICTP"
 date: 2025-01-01
 location: "Thuwal, Saudi Arabia"
 role: "Lead Teaching Assistant & Local Organizer"
