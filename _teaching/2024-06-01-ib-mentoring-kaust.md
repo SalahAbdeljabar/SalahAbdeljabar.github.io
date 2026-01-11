@@ -1,9 +1,9 @@
 ---
-title: "Delay-Tolerant Networking (DTN) to Bring the Educational Divide - International Baccalaureate Extended Essay"
+title: "Delay-Tolerant Networking (DTN) to Bridge the Educational Divide - International Baccalaureate Extended Essay"
 collection: teaching
 type: "Mentoring"
 permalink: /teaching/2024-ib-mentoring-kaust
-venue: "King Abdullah University of Science and Technology (KAUST)"
+venue: "KAUST"
 date: 2024-06-01
 location: "Thuwal, Saudi Arabia"
 semester: "Summer 2024"

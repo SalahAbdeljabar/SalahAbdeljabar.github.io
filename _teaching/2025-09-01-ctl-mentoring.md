@@ -3,7 +3,7 @@ title: "LoRaWAN Gateway Mesh Experimental Research - CTL Lab at KAUST"
 collection: teaching
 type: "Mentoring"
 permalink: /teaching/2025-ctl-mentoring
-venue: "Communication Theory Lab, King Abdullah University of Science and Technology (KAUST)"
+venue: "Communication Theory Lab (CTL), KAUST"
 date: 2025-09-01
 location: "Thuwal, Saudi Arabia"
 semester: "Fall 2025 - Spring 2026"
