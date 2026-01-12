@@ -11,7 +11,7 @@ redirect_from:
 
 Summary
 ======
-PhD candidate in Electrical and Computer Engineering at KAUST with expertise in wireless communications, IoT, and network optimization. Strong background in computer networking, LoRa communications, and hybrid RF/FSO systems. Experienced in system design, signal processing, and software development, with hands-on deployments and collaborations with industry. Skilled in SDRs, Python, MATLAB, and machine learning frameworks.
+PhD candidate in Electrical and Computer Engineering at KAUST specializing in wireless communications, Internet of Things (IoT) systems, and network optimization. Research experience spans LoRa and low power wide area networks, delay-tolerant networking (DTN), hybrid RF and free space optical (FSO) systems, and reconfigurable intelligent surfaces for visible light communications (VLC). Strong background in system modeling, stochastic analysis, and experimental prototyping, with publications in leading IEEE journals and collaborations with international research institutions and industry partners.
 
 Education
 ======
@@ -70,12 +70,32 @@ Publications
 
 Teaching
 ======
+
+**Graduate-Level Courses**
 <ul>{% for post in site.teaching reversed %}
-  {% include archive-single-cv.html %}
+  {% if post.type == "Graduate Course" %}
+    {% include archive-single-cv.html %}
+  {% endif %}
+{% endfor %}</ul>
+
+**Workshop Organization and Leadership**
+<ul>{% for post in site.teaching reversed %}
+  {% if post.type == "Workshop" %}
+    {% include archive-single-cv.html %}
+  {% endif %}
+{% endfor %}</ul>
+
+**Student Mentoring and Supervision**
+<ul>{% for post in site.teaching reversed %}
+  {% if post.type == "Mentoring" %}
+    {% include archive-single-cv.html %}
+  {% endif %}
 {% endfor %}</ul>
 
 Awards
 ======
+* 6G Summit "Imagining Tomorrow" Video Competition Winner — Nov 2025
+* Falling Walls Lab KAUST Finalist — Sep 2025
 * KAUST CEMSE Dean's List Award for Exceptional Academic Achievements — 2025
 * ICTP–Arab Fund PhD Fellowship — Sep 2024 – Dec 2026
 * IEEE ICC Conference 4MT Thesis Competition Finalist — Jun 2025
@@ -107,10 +127,30 @@ Technical Skills
 
 Teaching & Mentoring Experience
 ======
-* Head Teaching Assistant & Local Organizer — TinyML Engineering for IoT Workshop, KAUST — Jan 2025
-  * Organized and led hands-on workshops and practical sessions on TinyML for IoT; prepared materials; mentored participants
-* Direct Mentor for High School Student — IB Diploma Program Extended Essay, KAUST — Jun–Jul 2024
-  * Guided a student on a DTN-based project to deliver educational content to remote areas
-* Teaching Assistant — Graduate-Level Courses, KAUST
-  * Courses: Numerical Optimization (Spring 2023), Mathematical Foundations of Machine Learning (Fall 2023), Embedded Machine Learning (TinyML), Applied Mathematics (Summer 2024), Linear Algebra (Spring 2025)
-  * Managed classes of 40+ students, supported projects and grading, proctored exams, delivered review sessions, and held weekly office hours
+* **Graduate-Level Courses:**
+  * AMCS241 Stochastic Processes, KAUST, with Prof. Mohamed-Slim Alouini — Spring 2026
+  * AMCS250P Linear Algebra for Masters in AI, KFSC, with Prof. Sabine El Khoury — Spring & Fall 2025
+  * AMCS202 Applied Mathematics, KAUST, with Prof. Alexandra Gomes — Summer 2025 & 2024
+  * AMCS211 Numerical Optimization, KFSC, with Prof. George Turkiyyah — Spring 2024 & 2025
+  * AMCS215 Mathematical Foundations of ML, with Prof. George Turkiyyah — Fall 2023
+  * AMCS211 Numerical Optimization, KAUST, with Prof. George Turkiyyah — Spring 2023
+
+* **Workshop Organization and Leadership:**
+  * **Introduction to AI for High School Students**, KAUST Academy — Summer 2025
+    * Lead Instructor for High School Summer Program (HSSP) within STEPs. Designed curriculum and projects introducing AI concepts, practical tools (Edge Impulse), and the complete ML development cycle from data collection to edge deployment.
+  * **TinyML Engineering for IoT Workshop**, KAUST & ICTP — Jan 2025
+    * Lead Teaching Assistant & Local Organizer. Collaborated with Prof. Marco Zennaro (ICTP, Italy) and Prof. Pietro Manzoni (Universitat Politècnica de València, Spain). Led hands-on sessions on TinyML applications for IoT, prepared course materials, and mentored participants.
+  * **Embedded Machine Learning (TinyML) Workshop** — Jan 2024
+    * Teaching Assistant in collaboration between KAUST Academy and Prof. Marco Zennaro (ICTP, Italy).
+
+* **Student Mentoring and Supervision:**
+  * **LoRaWAN Gateway Mesh Experimental Research**, CTL Lab, KAUST — Fall 2025 – Spring 2026
+    * Supervised an undergraduate student with experimental research on LoRaWAN gateway mesh implementation developed by RAKWireless and ChirpStack.
+  * **AI Specialization Projects**, Artificial Intelligence Specialization, KAUST Academy — Summer 2025
+    * Mentored groups on AI projects: AI Ingredients & Nutrition Analyzer and Complete AI Simulation & Evaluation for IELTS exam.
+  * **LoRa Mesh Experimental Testbed**, ICTP, Italy — Summer 2025
+    * Supervised a TRIL Fellow on LoRa Mesh networks, resulting in a novel protocol called LoRa QTree.
+  * **LoRa Mesh Networks Research**, Saudi Summer Internship (SSI), KAUST — Summer 2025
+    * Supervised two undergraduate students on evaluation of open-source LoRa-mesh networking techniques using Meshtastic framework.
+  * **Delay-Tolerant Networking to Bridge the Educational Divide**, KAUST — Summer 2024
+    * Guided a high school student on research using Delay-Tolerant Networking (DTN) to deliver educational content to remote areas as part of International Baccalaureate Extended Essay.

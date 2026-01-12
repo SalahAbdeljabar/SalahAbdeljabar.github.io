@@ -1,0 +1,536 @@
+%-------------------------
+% Resume in Latex
+% Author : Gennadii Chursov
+% Based off of: https://github.com/sb2nov/resume and https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[colorlinks=true, urlcolor=blue, breaklinks=true]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+% \usepackage[dvipsnames]{xcolor}
+\input{glyphtounicode}
+
+
+
+% \newcommand{\paperlink}[1]{\href{#1}{\textcolor{blue}{Link}}}
+% Per-link color helpers (override global urlcolor locally)
+% Usage: \hrefblue{<url>}{<text>} or \hrefblack{<url>}{<text>}
+\newcommand{\hrefblue}[2]{{\hypersetup{urlcolor=blue}\href{#1}{#2}}}
+\newcommand{\hrefblack}[2]{{\hypersetup{urlcolor=black}\href{#1}{#2}}}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+% Page number at right bottom on all pages
+\fancyfoot[R]{\thepage}
+% Push footer content further into the right margin
+\fancyfootoffset[R]{0.1in}
+% Ensure enough header height for fancyhdr
+\setlength{\headheight}{14pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% % First-page only header with last update note
+% \fancypagestyle{firstpage}{%
+%   \fancyhf{}
+%   % Push header further into the right margin
+%   \fancyheadoffset[R]{0.1in}
+%   \fancyhead[R]{\small (last update Jan 2026)}
+%   % Page number at right bottom (also pushed into margin)
+%   \fancyfootoffset[R]{0.1in}
+%   \fancyfoot[R]{\thepage}
+%   \renewcommand{\headrulewidth}{0pt}
+%   \renewcommand{\footrulewidth}{0pt}
+% }
+
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape \href{https://salahabdeljabar.github.io/}{Salah Abdeljabar}} \\ \vspace{1pt}
+    \small \textit{PhD Candidate at King Abdullah University of Science and Technology (KAUST)} \\
+    Thuwal, Saudi Arabia $|$ +966 544509259 $|$ \href{mailto:salah.abdeljabar@kaust.edu.sa}{\underline{salah.abdeljabar@kaust.edu.sa}} $|$ 
+    \href{https://www.linkedin.com/in/salahabdeljabar}{\underline{linkedin.com/in/salahabdeljabar}} 
+    % $|$
+    % \href{https://github.com/namesurname}{\underline{github.com/namesurname}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section*{\textbf{SUMMARY}}
+% PhD candidate in Electrical and Computer Engineering at KAUST with expertise in wireless communications, IoT, and network optimization. Strong background in Computer Networking, LoRa communications, and hybrid RF/FSO systems. Experienced in system design, signal processing, and software development, with hands-on experience in real-world deployments and collaborations with industry leaders. Skilled in Software Defined Radios (SDR), Python, MATLAB, and machine learning frameworks. Proven ability to solve complex technical challenges, drive innovation, and deliver impactful solutions in telecommunications and networking.
+PhD candidate in Electrical and Computer Engineering at KAUST specializing in wireless communications, Internet of Things (IoT) systems, and network optimization. Research experience spans LoRa and low power wide area networks, delay-tolerant networking (DTN), hybrid RF and free space optical (FSO) systems, and reconfigurable intelligent surfaces for visible light communications (VLC). Strong background in system modeling, stochastic analysis, and experimental prototyping, with publications in leading IEEE journals and collaborations with international research institutions and industry partners.
+
+%-----------EDUCATION-----------
+\section{\textbf{EDUCATION}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {King Abdullah University of Science and Technology (KAUST)}{Thuwal, Saudi Arabia}
+      % {Doctor of Philosophy in Electrical and Computer Engineering }{May 2023 - Present}
+      {PhD in Electrical and Computer Engineering, Advisor: Prof. Mohamed-Slim Alouini}{May 2023 - Present}      
+      \resumeItemListStart
+      \resumeItem{Thesis: Towards Global Connectivity for Devices and People.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {King Abdullah University of Science and Technology (KAUST)}{Thuwal, Saudi Arabia}
+      % {Master of Science in Electrical and Computer Engineering,  GPA 3.95/4.0 }{Aug 2021 - May 2023}
+      {MS in Electrical and Computer Engineering, GPA 3.95/4.0,  Advisor: Prof. Mohamed-Slim Alouini}{Aug 2021 - May 2023}
+      \resumeItemListStart
+      \resumeItem{Thesis: On the Optimization of Reconfigurable Intelligent Surfaces for Visible Light Communications.}
+        % \resumeItem{Advisor: Prof. Mohamed-Slim Alouini.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Lund University}{Lund, Sweden}
+      {Erasmus Exchange Student}{Aug 2017 - Jan 2018}
+      \resumeItemListStart
+      \resumeItem{Courses in Digital Communications, Antenna Technology, and Digital IC-Design.}
+      % \resumeItem{Designing and implementing patch antenna supporting 2.4 GHz Bluetooth band.}
+      % , and Numerical Methods for Differential Equations.
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {The University of Jordan}{Amman, Jordan}
+      {Bachelor’s in Electrical Engineering (ABET accredited program), GPA 3.95/4.0 (ranked 1st) }{Sep 2014 - Jun 2019}
+      \resumeItemListStart
+        % \resumeItem{Thesis: Design of Intelligent Transportation System, Advisor: Prof. Muhammad Hawa}
+        \resumeItem{Courses in Communication Systems, Communication Networks, and Applied Mathematics. }
+        
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{\textbf{PROFESSIONAL EXPERIENCE}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Graduate Research Assistant}{Aug 2021 -- Present}
+      {Communication Theory Lab, King Abdullah University of Science and Technology (KAUST)}{Thuwal, Saudi Arabia}
+        \resumeItemListStart
+        \resumeItem{Designed and implemented a practical technique to increase LoRa data rates (Super-LoRa).}
+        \resumeItem{Conducted experiments on LoRa transmission over TV White Spaces in collaboration with \textit{Microsoft Research}.}
+        \resumeItem{Developed a Delay-Tolerant Networking digital learning platform deployed for rural connectivity use cases.}
+        \resumeItem{Contributed to the design and deployment of a hybrid Free-Space Optical (FSO) / Microwave (MW) link to connect remote areas and islands.}
+        % \resumeItem{Assisted in designing a Positioning and Protection System to assist firefighters in complex environments (Prototypes for Humanity, Dubai, UAE).}
+        \resumeItem{Investigated and optimized RIS-Assisted VLC systems to improve data rates and fairness among users in mobile scenarios (indoor and outdoor setups).}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Research Fellow}{Sep -- Dec 2024 \& Sep -- Dec 2025}
+      {Marconi Lab, International Centre for Theoretical Physics (ICTP)}{Trieste, Italy}
+        \resumeItemListStart
+        \resumeItem{Designed and implemented a practical and energy efficient off-grid wireless network based on LoRa Mesh.}
+        \resumeItem{Conducted advanced research on DTN and public transportation systems as data mules.}
+        \resumeItem{Modeled stochastic processes to improve data transfer reliability in delay-tolerant networks.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Graduate Teaching Assistant}{Jan 2023 -- Present}
+      {King Abdullah University of Science and Technology (KAUST)}{Thuwal, Saudi Arabia}
+        \resumeItemListStart
+            \resumeItem{Served as teaching assistant for graduate-level courses including Stochastic Processes, Numerical Optimization, Applied Mathematics, Mathematical Foundations of Machine Learning, and Linear Algebra.}
+            \resumeItem{Managed classes of 40+ students; developed course projects, graded assignments, delivered review sessions, proctored exams, and held weekly office hours.}
+            \resumeItem{Lead TA and local organizer for the TinyML Engineering for IoT Workshop (Jan 2025 \& Jan 2024), leading hands-on sessions, mentoring participants, and preparing course materials.}
+            \resumeItem{Mentored 10+ students on research projects ranging from DTN-based educational platforms to LoRa mesh networking protocols.}
+            % \resumeItem{\textit{See TEACHING AND MENTORING EXPERIENCE section for comprehensive details.}}
+        % \resumeItem{Courses including Numerical Optimization (Spring 2023), Math Foundation of Machine Learning (Fall 2023), Embedded Machine Learning (TinyML), Applied Mathematics (Summer 2024), and Linear Algebra (Spring 2025.)}
+        % \resumeItem{Managed classes of over 40 students and assisted in developing the courses' projects, grading papers, delivering review sessions, proctoring exams, and holding weekly office hours.}
+        % \resumeItem{Head TA and local organizer for the TinyML Engineering for IoT Workshop (Jan 2025), leading hands-on sessions, mentoring participants, and preparing course materials.}
+        % % \resumeItem{Contributed to organizing and delivering TinyML workshops for two consecutive years, including curriculum design, logistics, and on-site support.}
+        % \resumeItem{Mentored a high school student under the International Baccalaureate program on a DTN-based project to deliver educational content to remote areas.}
+        % \resumeItem{Supervised undergraduate summer interns on designing a testbed to evaluate open-source LoRa-mesh networking techniques.}
+        \resumeItemListEnd
+        
+% \vspace{3cm}
+    \resumeSubheading
+      {Technical Consulting Engineer}{Jun 2019 - Jul 2021}
+      {ESTARTA Solutions (Cisco Systems)}{Amman, Jordan – Kraków, Poland}
+        \resumeItemListStart
+        % TAC Enterprise Switching: 
+        \resumeItem{Providing technical support for Cisco’s worldwide partners and customers; working on high impact and complexity problems related to hardware, software, and/or network design; close collaboration with Account, Business and Engineering units.}
+        \resumeItem{Expertise in Enterprise level Routing \& Switching, Cisco IOS-XE, Catalyst 9000, IE and CDB series Switches.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+      {Software Engineer (Internship)}{Feb 2019 - Jun 2019}
+      {JO VISION }{Amman, Jordan}
+      \resumeItemListStart
+        \resumeItem{Image processing using C++ OpenCV, and Machine Learning algorithms for digital pathology.}
+        \resumeItem{Designed image stitching algorithm using OpenCV library to stitch microscope slide images in real-time.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Electrical Design Engineer (Internship)}{May 2018 - Jul 2018}
+      {Dar Al-Handasah }{Amman, Jordan}
+      \resumeItemListStart
+        \resumeItem{Worked on small to medium-scale electrical design projects, including low current systems (structured cabling network and CCTVs) and power systems (cable sizing, protection devices, PV Systems, and UPSs) using DIALux, AutoCAD and Revit software.}
+      \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+
+%-----------Publications and Presentations-----------
+\section{\textbf{PUBLICATIONS} (\href{https://scholar.google.com/citations?user=NIoePx4AAAAJ&hl=en}{Google Scholar})}
+
+\begin{itemize}[noitemsep, topsep=0pt]
+    \item \underline{\textbf{S. Abdeljabar}}, M. Zennaro, and M. -S. Alouini, \textit{"Delay-Tolerant Networking to Extend Connectivity in Rural Areas Using Public Transport Systems: Design And Analysis,"} in IEEE IoT Journal (2025).\hfill \href{https://doi.org/10.1109/JIOT.2025.3640016}{\textbf{Link}}
+    \item \underline{\textbf{S. Abdeljabar}}, and M. -S. Alouini, \textit{"Super-LoRa: Enhancing LoRa Throughput via Payload Superposition,"}  in IEEE Internet of Things Journal (2025). \hfill \href{https://doi.org/10.1109/JIOT.2025.3562270}{\textbf{Link}}
+    \item \underline{\textbf{S. Abdeljabar}}, M. W. Eltokhey and M. -S. Alouini, \textit{"Sum Rate and Fairness Optimization in RIS-Assisted VLC Systems,"} in IEEE Open Journal of the Communications Society (2024).\hfill \href{https://doi.org/10.1109/OJCOMS.2024.3389093}{\textbf{Link}}
+    \item \underline{\textbf{S. Abdeljabar}}, M. W. Eltokhey, and M.-S. Alouini, \textit{“Reconfigurable intelligent surfaces for outdoor visible light communications,”} in IEEE Internet of Things Magazine (2024).\hfill \href{https://doi.org/10.1109/IOTM.001.2400115}{\textbf{Link}}
+    \item \underline{\textbf{S. Abdeljabar}}, and M. -S. Alouini, \textit{"Reconfigurable Intelligent Surfaces for RSMA-Based VLC Systems"} in Optical Wireless Communication Conference, Jakajima (2023).\hfill \href{https://www.jakajima.eu/wp-content/uploads/2023/12/ID_7_7_Salah-Abdeljabar_Reconfigurable-Intelligent-Surfaces-for-RSMA-Based-VLC-Systems.pdf}{\textbf{Link}}
+    \item F. S. Alqurashi, \underline{\textbf{S. Abdeljabar}}, A. Trichili and M. -S. Alouini, \textit{"Overcoming Maritime Connectivity Challenges with Hybrid RF/FSO Links,"} in IEEE Globecom Workshops (2024).\hfill \href{https://doi.org/10.1109/GCWkshp64532.2024.11100697}{\textbf{Link}}
+    \item \textbf{---}, \underline{\textbf{S. Abdeljabar}}, \textbf{---}
+    \textit{"TinyML4D: Scaling Embedded Machine Learning Education in the Developing World,"} in Proceedings of the AAAI Symposium Series, (2024).\hfill \href{https://doi.org/10.1609/aaaiss.v3i1.31265 }{\textbf{Link}}
+\end{itemize}
+
+
+%-----------Awards-----------
+\section{\textbf{AWARDS}}
+   \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+         {\textbf{\href{https://ctl.kaust.edu.sa/articles/2025/11/12/imagining-tomorrow-highlights-6g-summit-young-scholar-competition}{6G Summit “Imagining Tomorrow” Video Competition Winner}}, Thuwal, Saudi Arabia}{Nov 2025}  
+
+    \resumeProjectHeading
+         {\textbf{\href{https://www.youtube.com/watch?v=COZIOS_cN9U}{Falling Walls Lab KAUST Finalist}}, Thuwal, Saudi Arabia}{Sep 2025}  
+
+         
+         
+     \resumeProjectHeading
+         {\textbf{KAUST CEMSE Dean's List Award for Exceptional Academic Achievements}, Thuwal, Saudi Arabia}{2025}  
+         
+         
+     \resumeProjectHeading
+         {\textbf{\href{https://ctl.kaust.edu.sa/articles/2025/06/22/kaust-ctl-researchers-shine-ieee-icc-4mt-competition}{IEEE ICC 4MT Thesis Competition Winner}}, Montreal, Canada}{Jun 2025}
+
+     \resumeProjectHeading
+         {\textbf{\href{https://ctl.kaust.edu.sa/articles/2024/07/14/kaust-ctl-student-awarded-prestigious-ictp-arab-fund-phd-fellowship}{ICTP-Arab Fund PhD Fellowship}}, Trieste, Italy}{Sep 2024 -- Dec 2026}
+         
+     \resumeProjectHeading
+         {\textbf{\href{https://ieee-sustech.org/2023/sustech-2023-student-poster-contest-winners/}{IEEE SusTech 2023 Student Poster} Contest Winner}, Portland, USA}{Apr 2023}   
+
+     \resumeProjectHeading
+         {\textbf{King Abdullah University of Science and Technology Fellowship}, Thuwal, Saudi Arabia}{Aug 2021 - Present}
+         
+   \resumeSubHeadingListEnd
+
+
+%-----------WORKSHOPS and CERTIFICATIONS-----------
+\section{\textbf{WORKSHOPS AND CERTIFICATIONS}}
+   \resumeSubHeadingListStart
+
+
+     \resumeProjectHeading
+         {\textbf{Communication in Extreme Environments for Science and Sustainable Development}, Trieste, Italy}{2023}
+         % {Nov 2023}
+     \resumeProjectHeading
+         {\textbf{Widening Access to TinyML Network by Establishing Best Practices in Education}, Trieste, Italy}
+         {2023}
+         % {Jul 2023}         
+     \resumeProjectHeading
+         {\textbf{Tiny Machine Learning (TinyML)}, HarvardX}
+         {2023}
+         % {Jun 2023}
+     \resumeProjectHeading
+         {\textbf{Cisco Certified Network Associate (CCNA) Routing and Switching}, Cisco Systems}
+         {2020} 
+         % {Jan 2020}          
+   \resumeSubHeadingListEnd
+
+%-----------OUTREACH ACTIVITIES-----------
+\section{\textbf{OUTREACH ACTIVITIES}}
+   \resumeSubHeadingListStart
+    \resumeProjectHeading
+         {\textbf{Journal Reviewer}, IEEE Transactions on Vehicular Technology}{Oct 2025}
+    
+     \resumeProjectHeading
+         {\textbf{Journal Reviewer}, IEEE Transactions on Wireless Communications}{Sep 2025}
+    \resumeProjectHeading
+         {\textbf{Conference Reviewer}, IEEE PIMRC Conference, Istanbul}{Jun 2025}   
+     \resumeProjectHeading
+         {\textbf{Conference Reviewer}, IEEE Wireless Communications and Networking Conference (WCNC), Dubai}{Apr 2024}   
+     \resumeProjectHeading
+         {\textbf{Winter Enrichment Program (WEP) Volunteer}, KAUST, Thuwal, Saudi Arabia}{Dec 2022}
+     \resumeProjectHeading
+         {\textbf{Co-Founder of IEEE Power and Energy Society}, The University of Jordan, Amman, Jordan}{2018-2019}  
+     \resumeProjectHeading
+         {\textbf{Students’ Union Member}, Board of European Students of Technology (BEST), Lund, Sweden}{2017-2018}
+     
+   \resumeSubHeadingListEnd
+
+%-----------Technical SKILLS-----------
+\section{\textbf{TECHNICAL SKILLS}}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Arabic: Native proficiency, English: Advanced (IELTS: 8; TOEFL iBT score: 100).} \\
+     \textbf{Programming Skills}{: C/C++, Python, MATLAB, Mathematica.} \\
+     \textbf{Developer Tools}{: Git/GitHub, Linux, Docker, GNU Radio, Software Defined Radio (SDR), PyTorch, TensorFlow, Jax.} \\
+    }}
+ \end{itemize}
+
+
+%-----------TEACHING AND MENTORING EXPERIENCE-----------
+\section{\textbf{TEACHING AND MENTORING EXPERIENCE}}
+% Responsibilities include managing classes of 40+ students, developing course projects, grading assignments, proctoring exams, delivering review sessions, and conducting weekly office hours.
+
+\vspace{5pt}
+
+{\Large \textbf{Graduate-Level Courses:}}
+\vspace{3pt}
+\begin{itemize}[leftmargin=0.15in, label={•}, noitemsep, topsep=0pt]
+    \item \textbf{AMCS241 Stochastic Processes}, KAUST, with Prof. \href{https://www.kaust.edu.sa/en/study/faculty/mohamed-slim-alouini}{Mohamed-Slim Alouini} \hfill Spring 2026
+
+    \item \textbf{AMCS250P Linear Algebra} for Masters in AI, \href{https://kfsc.edu.sa/}{KFSC}, with Prof. \href{https://www.kaust.edu.sa/en/study/faculty/sabine-el-khoury}{Sabine El Khoury} \hfill Spring \& Fall 2025
+
+    \item \textbf{AMCS202 Applied Mathematics}, KAUST, with Prof. \href{https://www.kaust.edu.sa/en/study/faculty/alexandra-a-gomes}{Alexandra Gomes}\hfill Summer 2025 \& 2024
+
+    \item \textbf{AMCS211 Numerical Optimization}, \href{https://kfsc.edu.sa/}{KFSC}, with Prof. \href{https://cemse.kaust.edu.sa/profiles/george-turkiyyah}{George Turkiyyah} \hfill Spring 2024 \& 2025
+    
+    \item \textbf{AMCS215 Mathematical Foundations of ML}, with Prof. \href{https://cemse.kaust.edu.sa/profiles/george-turkiyyah}{George Turkiyyah} \hfill Fall 2023
+
+    \item \textbf{AMCS211 Numerical Optimization}, KAUST, with Prof. \href{https://cemse.kaust.edu.sa/profiles/george-turkiyyah}{George Turkiyyah} \hfill Spring 2023
+\end{itemize}
+
+\vspace{5pt}
+
+{\Large \textbf{Workshop Organization and Leadership:}}
+\vspace{3pt}
+\begin{itemize}[leftmargin=0.15in, label={•}, noitemsep, topsep=0pt]
+    \item \textbf{Introduction to AI for High School Students}, KAUST Academy \hfill Summer 2025
+    \newline
+    Lead Instructor for High School Summer Program (HSSP), part of \href{https://academy.kaust.edu.sa/program/college-preparation-programs/steps-kaust/}{STEPs}. Designed curriculum and projects introducing AI concepts, practical tools (e.g., \href{https://edgeimpulse.com/}{Edge Impulse}), and the complete ML development cycle from data collection to edge deployment.
+
+    \item \textbf{Workshop on TinyML Engineering for IoT}, KAUST \& ICTP \hfill Jan 2025 
+    \newline
+    Lead Teaching Assistant \& Local Organizer. Collaborated with Prof. \href{https://www.ictp.it/member/marco-zennaro}{Marco Zennaro} (ICTP, Italy) and Prof. \href{https://www.community.deib.polimi.it/en/pietro-manzoni/}{Pietro Manzoni} (Universitat Politècnica de València, Spain). Led hands-on sessions on TinyML applications for IoT, prepared course materials, and mentored participants.
+
+    \item \textbf{Embedded Machine Learning (TinyML) Workshop} \hfill Jan 2024
+    \newline
+    Teaching Assistant in collaboration between KAUST Academy and Prof. \href{https://www.ictp.it/member/marco-zennaro}{Marco Zennaro} (ICTP, Italy).
+\end{itemize}
+
+\vspace{5pt}
+
+{\Large \textbf{Student Mentoring and Supervision:}}
+\vspace{3pt}
+\begin{itemize}[leftmargin=0.15in, label={•}, noitemsep, topsep=0pt]
+    \item \textbf{LoRaWAN Gateway Mesh Experimental Research}, \href{https://ctl.kaust.edu.sa/}{CTL Lab}, KAUST \hfill Fall 2025 -- Spring 2026
+    \newline
+    Supervised an undergraduate student with experimental research on LoRaWAN gateway mesh implementation developed by RAKWireless and ChirpStack.
+
+    \item \textbf{AI Specialization Projects}, \href{https://academy.kaust.edu.sa/program/university-students/ai-specialization/}{Artificial Intelligence Specialization}, KAUST Academy \hfill Summer 2025
+    \newline
+    Mentored groups on AI projects: AI Ingredients \& Nutrition Analyzer and Complete AI Simulation \& Evaluation for IELTS exam.
+
+    \item \textbf{LoRa Mesh Experimental Testbed}, ICTP, Italy \hfill Summer 2025
+    \newline
+    Supervised a \href{https://www.ictp.it/opportunity/training-and-research-italian-laboratories-tril}{TRIL Fellow} on LoRa Mesh networks, resulting in a novel protocol called \href{https://github.com/AbdullahAlmanei/LoRa-QTree}{LoRa QTree}.
+
+    \item \textbf{LoRa Mesh Networks Research}, \href{https://cemse.kaust.edu.sa/internship-opportunities/saudi-summer-internship-ssi}{Saudi Summer Internship (SSI)}, KAUST \hfill Summer 2025 
+    \newline
+    Supervised two undergraduate students on evaluation of open-source LoRa-mesh networking techniques using \href{https://meshtastic.org/}{Meshtastic} framework.
+
+    \item \textbf{Delay-Tolerant Networking to Bridge the Educational Divide}, KAUST \hfill Summer 2024 
+    \newline
+    Guided a high school student on research using Delay-Tolerant Networking (DTN) to deliver educational content to remote areas as part of \href{https://www.ibo.org/programmes/diploma-programme/curriculum/dp-core/extended-essay/}{International Baccalaureate Extended Essay}.
+\end{itemize}
+
+
+%-----------Technical SKILLS-----------
+\section{\textbf{REFERENCES}}
+ \begin{itemize}[leftmargin=0.15in, label={•}, itemsep=0.01pt, topsep=0pt]
+    % \small{
+    \item Prof.  \href{https://www.kaust.edu.sa/en/study/faculty/mohamed-slim-alouini}{\textbf{Mohamed-Slim Alouini}}, Distinguished Professor, KAUST (MSc \& Ph.D. advisor) \\
+    Email: slim.alouini@kaust.edu.sa
+    
+    \item Dr. \href{https://www.ictp.it/member/marco-zennaro}{\textbf{Marco Zennaro}}, Research Scientist, ICTP, Italy (Collaborator) \\
+    Email: mzennaro@ictp.it
+    
+    \item Dr. \href{https://eng.ox.ac.uk/people/mahmoud-eltokhey}{\textbf{Mahmoud Eltokhey}}, Postdoctoral Researcher, University of Oxford, UK (Collaborator) \\
+    Email: mahmoud.eltokhey@eng.ox.ac.uk
+    
+    \item Prof.  \href{https://cemse.kaust.edu.sa/profiles/george-turkiyyah}{\textbf{George Turkiyyah}}, Research Professor, KAUST (Teaching Mentor) \\
+    Email: george.turkiyyah@kaust.edu.sa
+    
+    \item Prof.  \href{https://www.kaust.edu.sa/en/study/faculty/sabine-el-khoury}{\textbf{Sabine El Khoury}}, Instructional Professor, KAUST (Teaching Mentor) \\
+    Email: sabine.khoury@kaust.edu.sa
+    % }
+ \end{itemize}
+
+
+
+%-------------------------------------------
+\end{document}
+
+
+
+
+\newpage
+%-----------Teaching Experience-----------
+\section{\textbf{Teaching Experience (Graduate-level Courses)}}
+Key responsibilities included managing classes of over 40 students, developing course projects, grading assignments, proctoring exams, delivering review sessions, and holding weekly office hours.
+
+\begin{itemize}[noitemsep, topsep=0pt]
+
+    \item AMCS241 Stochastic Processes, KAUST \hfill Spring 2025  
+    \newline
+    Teaching Assistant with Prof. \href{https://www.kaust.edu.sa/en/study/faculty/mohamed-slim-alouini}{Mohamed-Slim Alouini}.
+
+    \item Linear Algebra for Masters in Artificial Intelligence, King Fahad Security College, Riyadh \hfill Fall 2025  
+    \newline
+    Teaching Assistant with Prof. \href{https://www.kaust.edu.sa/en/study/faculty/sabine-el-khoury}{Sabine El Khoury}, in collaboration with KAUST Academy.
+
+    \item Introduction to Artificial Intelligence for High School Students, KAUST Academy \hfill Summer 2025  
+    \newline
+    Lead Instructor for the High School Summer Program within the STEPs initiative. Designed curriculum and hands-on projects introducing machine learning, deep learning workflows, and edge AI tools such as \href{https://edgeimpulse.com/}{Edge Impulse}.
+
+    \item AMCS202 Applied Mathematics, KAUST \hfill Summer 2025  
+    \newline
+    Teaching Assistant with Prof. \href{https://www.kaust.edu.sa/en/study/faculty/alexandra-a-gomes}{Alexandra Gomes} and Prof. Jenny Li.
+
+    \item AMCS211 Numerical Optimization, King Fahad Security College, Riyadh \hfill Spring 2025  
+    \newline
+    Teaching Assistant with Prof. \href{https://cemse.kaust.edu.sa/profiles/george-turkiyyah}{George Turkiyyah}, in collaboration with KAUST Academy.
+
+    \item Linear Algebra for Bridging Program, King Fahad Security College, Riyadh \hfill Spring 2025  
+    \newline
+    Lead Teaching Assistant with Prof. \href{https://www.kaust.edu.sa/en/study/faculty/sabine-el-khoury}{Sabine El Khoury}. Responsible for material preparation, TA coordination, and exam design.
+
+    \item Workshop on TinyML Engineering for IoT, KAUST and ICTP \hfill Jan 2025  
+    \newline
+    Lead Teaching Assistant and Local Organizer. Organized and delivered hands-on TinyML sessions with Prof. \href{https://www.ictp.it/member/marco-zennaro}{Marco Zennaro} and Prof. \href{https://www.community.deib.polimi.it/en/pietro-manzoni/}{Pietro Manzoni}.
+
+    \item AMCS211 Numerical Optimization, King Fahad Security College, Riyadh \hfill Spring 2024  
+    \newline
+    Teaching Assistant with Prof. \href{https://cemse.kaust.edu.sa/profiles/george-turkiyyah}{George Turkiyyah}, in collaboration with KAUST Academy.
+
+    \item Embedded Machine Learning Workshop, KAUST \hfill Jan 2024  
+    \newline
+    Teaching Assistant in collaboration with KAUST Academy and ICTP.
+
+    \item AMCS215 Mathematical Foundations of Machine Learning, KAUST \hfill Fall 2023  
+    \newline
+    Teaching Assistant with Prof. \href{https://cemse.kaust.edu.sa/profiles/george-turkiyyah}{George Turkiyyah}.
+
+    \item AMCS211 Numerical Optimization, KAUST \hfill Spring 2023  
+    \newline
+    Teaching Assistant with Prof. \href{https://cemse.kaust.edu.sa/profiles/george-turkiyyah}{George Turkiyyah}.
+
+\end{itemize}
+
+
+\newpage
+%----------- Mentoring Experience-----------
+\section{\textbf{Mentoring Experience}}
+
+\begin{itemize}[noitemsep, topsep=0pt]
+
+    \item \textbf{Undergraduate Research Intern}, Communication Theory Lab, KAUST \hfill Fall 2025 to Spring 2026  
+    \newline
+    Supervised an experimental research project on LoRaWAN gateway mesh implementations using RAKWireless hardware and ChirpStack.
+
+    \item \textbf{Two Student Groups}, Artificial Intelligence Specialization, KAUST Academy \hfill Summer 2025  
+    \newline
+    Mentored two teams on applied AI projects. One focused on an AI based nutrition and ingredients analysis system, while the other developed a full AI driven IELTS simulation and evaluation platform.
+
+    \item \textbf{\href{https://www.ictp.it/opportunity/training-and-research-italian-laboratories-tril}{TRIL Fellow}}, ICTP, Italy \hfill Summer 2025  
+    \newline
+    Mentored a fellow on LoRa mesh networking and testbed design. The project resulted in a deployable protocol named \href{https://github.com/AbdullahAlmanei/LoRa-QTree}{LoRa QTree}.
+
+    \item \textbf{Two Undergraduate Interns}, Saudi Summer Internship Program, KAUST \hfill Summer 2025  
+    \newline
+    Supervised interns evaluating open source LoRa mesh networking frameworks, including Meshtastic, through simulation and experimental validation.
+
+    \item \textbf{High School Student}, International Baccalaureate Extended Essay, KAUST \hfill Summer 2024  
+    \newline
+    Guided a research project on Delay Tolerant Networking for delivering educational content to remote and underserved regions.
+
+\end{itemize}
