@@ -57,10 +57,10 @@ Served as Teaching Assistant for graduate-level courses including Stochastic Pro
 - Conference Reviewer: IEEE PIMRC, IEEE WCNC
 - Community Engagement: KAUST Winter Enrichment Program Volunteer, Co-founder IEEE Power and Energy Society
 
-
+<!-- width:140px; height:140px -->
 
 <div style="display:flex; justify-content:center;">
-  <div style="width:140px; height:140px; overflow:hidden; transform: scale(1.0); transform-origin: top left;">
+  <div style="width:1px; height:1px; overflow:hidden; transform: scale(1.0); transform-origin: top left;">
     <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=qVMIp_SYBr3f5Oro0xKneNsu9JTpzcgYU2IJfsODk28"></script>
   </div>
 </div>
